@@ -1,0 +1,6 @@
+[INTENT SLOT]
+stationName	STATION_NAME
+
+[INTENT EXPRESSION]
+<stationName>東京</stationName>駅
+<stationName>東京</stationName>
