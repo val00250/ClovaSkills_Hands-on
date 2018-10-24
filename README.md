@@ -204,5 +204,9 @@ HerokuのHello Worldで利用したコマンドと同様に下記を実行
 2. カウント数を発話する  
 ```response.write(JSON.stringify(createResponse(sessionAttributes, false, "「" + data.request.intent.slots.stationName.value + "」は山の手線に存在します。" + String(sessionAttributes.count) + "回目の正解です。他の駅名をどうぞ。")));```
 
+## うまく動かない時
+
+```heroku restart --app ${APP_NAME}```
+
 ## 最後に  
 LINE Clovaをレンタルしている方は接続の解除を行ってください
